@@ -1,0 +1,132 @@
+html,
+body,
+head,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+address,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+section,
+article,
+nav,
+figure,
+figcaption,
+aside,
+footer,
+table,
+thead,
+tbody,
+th,
+td,
+tr,
+caption {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(fonts.css);
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+table {
+    border-collapse: border;
+    /* 셀 사이의 간격을 없애는 속성 */
+}
+
+/* 텍스트 블라인드 */
+.blind {
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* offers-area */
+.offers-area {
+    width: 1170px;
+    margin: 50px auto;
+}
+
+.offers-area h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.offers-area .offers-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.offers-list li>a {
+    display: block;
+    height: 250px;
+    background: red;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.offers-list img {
+    display: block;
+    width: 100%;
+}
+
+.offers-list h3 {
+    font-family: Playfair, serif;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.offers-list p {
+    margin-bottom: 20px;
+}
+
+.offers-list p>span {
+    display: block;
+    margin-top: 10px;
+}
+
+.offers-list .location {
+    padding: 4px 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.offers-list .location .location01 {
+    background: rgb(46, 103, 129);
+}
+
+.offers-list .location .location02 {
+    background: rgb(62, 151, 211);
+}
+
+.offers-list .location .location03 {
+    background: rgb(31, 69, 59);
+}
