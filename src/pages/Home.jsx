@@ -4,7 +4,13 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <main className='home'>
-            <section className="hero">
+            <section className="hero"
+                style={{
+                    backgroundImage: `
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+            url(${heroImage})
+          `,
+                }}>
                 <div className="hero-content">
                     <span className='hero-category'>
                         EXHIBITION CURATION
