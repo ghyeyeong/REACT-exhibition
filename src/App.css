@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   background: #f7f7f7;
   color: #222;
